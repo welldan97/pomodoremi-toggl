@@ -12,7 +12,7 @@ It can be used as Pomodoremi module in config.js:
 PomodoremiToggl = require 'pomodoremi-toggl'
 
 module.exports = function() {
-  this.modules.push(new PomodoremiCSV({
+  this.modules.push(new PomodoremiToggl({
     apToken: '<api-token>'
   }));
 };
